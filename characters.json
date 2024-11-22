@@ -1,0 +1,529 @@
+{
+  "characters": [
+    {
+      "name": "Regina Rodriguez",
+      "age": 17,
+      "description": "Regina is a confident and academically gifted 17-year-old who identifies as aromantic. She balances her stellar academic achievements with a natural inclination to help others, though she sometimes struggles with putting her own needs first. As student body president and founder of the school's STEM club, she demonstrates exceptional leadership qualities while maintaining a down-to-earth attitude that makes her approachable to her peers. Her alter ego as Mariposa reflects her transformation from a sometimes self-focused individual to a heroic figure who puts the greater good above personal gain.",
+      "universe_number": "Universe 2",
+      "images": ["regina.png", "mariposa.png"],
+      "alternate_identities": ["Mariposa"],
+      "relationships": {
+        "mom": "Martina De Leon",
+        "dad": "Maximiliano Rodriguez",
+        "sibling": "Samuel",
+        "close friends": ["Bismo Nkimina", "Isabelle Rich", "Isra Sumeyye"]
+      },
+      "groups": ["New Era Astonishstone Holders", "Handwerp High Students", "Class 5BI", "STEM Club Leadership", "Student Body Government"]
+    },
+    {
+      "name": "Bismo Nkimina",
+      "age": 16,
+      "description": "A charismatic and determined 16-year-old who combines physical prowess with emotional intelligence. Despite his young age, Bismo shows remarkable maturity in handling complex situations, often serving as the moral compass for his friend group. His transformation into Tigre D'or represents his fierce protective nature, while his Perfecter form showcases his ability to adapt and grow stronger through adversity. Behind his strong exterior lies a deep sense of responsibility to his family's legacy and a constant drive to prove himself worthy of the powers he's been given.",
+      "universe_number": "Universe 2",
+      "images": ["bismo.png", "tigredor.png", "perfecter.png"],
+      "alternate_identities": ["Tigre D'or", "Perfecter (Pollinated)"],
+      "relationships": {
+        "mom": "Marie-Laure Fatuma",
+        "dad": "Bashala Benjamin Nkimina",
+        "close friends": ["Regina Rodriguez", "Isabelle Rich", "Faye Calvary"],
+        "cousin": "Roxanne 'Gifty' Arhin"
+      },
+      "groups": ["New Era Astonishstone Holders", "Handwerp High Students", "Class 5BI", "Athletic Team", "Martial Arts Club"]
+    },
+    {
+      "name": "Isabelle Rich",
+      "age": 16,
+      "description": "A brilliant strategist and natural problem-solver at 16, Isabelle possesses an analytical mind that's perfectly balanced by her creative spirit. As the team's primary tactician, she excels at identifying patterns and developing innovative solutions to complex challenges. Her transformations into Catastrophe and ScaraBlue reflect different aspects of her personality - the chaos she can harness for good and the calculated precision she brings to every situation. Despite her intellectual capabilities, she struggles with impostor syndrome and often downplays her crucial role in the team's successes.",
+      "universe_number": "Universe 2",
+      "images": ["isabelle.png", "catastrophe.png", "scarablue.png"],
+      "alternate_identities": ["Catastrophe", "ScaraBlue"],
+      "relationships": {
+        "mom": "Margalene Jewel",
+        "dad": "Quarrel Brave",
+        "sibling": "Spineas Rich",
+        "close friends": ["Bismo Nkimina", "Regina Rodriguez", "Elise Nobel"]
+      },
+      "groups": ["New Era Astonishstone Holders", "Handwerp High Students", "Class 5BI", "Debate Club", "Science Olympiad"]
+    },
+    {
+      "name": "Faye Calvary",
+      "age": 17,
+      "description": "An intrepid 17-year-old explorer whose insatiable curiosity drives her to push boundaries and question everything. As ViperHead and BlueBunn, she channels her adventurous spirit into protecting others, using her keen observational skills and natural intuition to uncover hidden truths. Faye's complex relationship with her family history and her desire to forge her own path creates an interesting tension in her character, making her both rebellious and deeply loyal to those she trusts.",
+      "universe_number": "Universe 2",
+      "images": ["faye.png", "viperhead.png", "bluebunn.png"],
+      "alternate_identities": ["ViperHead", "BlueBunn"],
+      "relationships": {
+        "mom": "Hapinton Calvary",
+        "dad": "Benson Night",
+        "close friends": ["Bismo Nkimina", "Johan Riddle"]
+      },
+      "groups": ["New Era Astonishstone Holders", "Handwerp High Students", "Class 5BI", "Exploration Club", "Environmental Action Team"]
+    },
+    {
+      "name": "Isra Sumeyye",
+      "age": 17,
+      "description": "A 17-year-old environmental activist and weather enthusiast who channels her passion for nature into her heroic identity as WeatherBreak. Her understanding of climate patterns and natural phenomena makes her an invaluable asset to the team, while her strong moral compass guides her in using her powers responsibly. Beneath her confident exterior lies a deep concern for the future of the planet and the impact of human actions on natural systems.",
+      "universe_number": "Universe 2",
+      "images": ["isra.png", "israweatherbreak.png", "weatherbreak.png"],
+      "alternate_identities": ["WeatherBreak (Fecundated)", "WeatherBreak (Pollinated)"],
+      "relationships": {
+        "mom": "Ajda Yilmaz",
+        "dad": "Emre Sumeyye",
+        "partner": "Cayhun Ozdemir",
+        "close friends": "Regina Rodriguez"
+      },
+      "groups": ["Handwerp High Students", "Class 5BI", "Climate Action Network", "Weather Research Club", "Environmental Advocacy"]
+    },
+    {
+      "name": "Roxanne 'Gifty' Arhin",
+      "age": 17,
+      "description": "A natural-born leader at 17, Gifty combines athletic excellence with exceptional emotional intelligence. As captain of multiple sports teams, she demonstrates an ability to unite diverse groups under a common goal. Her relationship with ZhenZhen showcases her softer side, revealing a person who can be both fiercely competitive and deeply nurturing. Gifty's greatest strength lies in her ability to recognize and bring out the best in others, though she sometimes struggles with the pressure of always having to be the strong one.",
+      "universe_number": "Universe 2",
+      "images": ["gifty.png"],
+      "alternate_identities": [],
+      "relationships": {
+        "mom": "Rista Reiner",
+        "dad": "Tarik Arhin",
+        "partner": "ZhenZhen Liu",
+        "cousin": "Bismo Nkimina"
+      },
+      "groups": ["Handwerp High Students", "Class 6BI", "Sports Team Captains", "Leadership Council", "Community Outreach Program"]
+    },
+    {
+      "name": "Jesse Freelance",
+      "age": 17,
+      "description": "A complex 17-year-old whose multiple identities reflect their internal struggle with identity and purpose. As Justin, Leonotis, Dandeleon, and Diableon, they explore different aspects of their personality, from the gentle protector to the fierce warrior. Their journey of self-discovery and acceptance resonates with many of their peers, while their ability to adapt to different situations makes them an unpredictable but reliable ally in battle.",
+      "universe_number": "Universe 2",
+      "images": ["jesse.png", "justin.png", "leonotis.png", "dandeleon.png", "diableon.png"],
+      "alternate_identities": ["Justin (Un-Fecundated)", "Leonotis (Un-Fecundated)", "Dandeleon", "Diableon (Pollinated)"],
+      "relationships": {
+        "mom": "Lylliane Jamerson",
+        "dad": "Hades Freelance",
+        "close friends": "Claire Mitchell"
+      },
+      "groups": ["New Era Astonishstone Holders", "Drama Club", "Creative Arts Collective", "Identity Exploration Group"]
+    },
+    {
+      "name": "Stacy Leonold",
+      "age": 17,
+      "description": "A charismatic 17-year-old whose journey from popular prom queen to powerful hero as Capraquake challenges stereotypes about beauty and strength. Stacy represents her growth from someone concerned primarily with social status to a defender of justice who uses her influence to protect others. Stacy's greatest strength lies in her ability to connect with people from all walks of life, though she sometimes grapples with others' preconceptions about her capabilities.",
+      "universe_number": "Universe 2",
+      "images": ["stacy.png", "capraquake.png", "promqueen.png"],
+      "alternate_identities": ["Capraquake", "Prom Queen (Pollinated)"],
+      "relationships": {
+        "mom": "Patricia Klein",
+        "dad": "John Kaynine",
+        "sibling": ["Irving Min", "Orion Reis", "Lisa Lemand", "Patricia Jr. Leonold", "Mary Vintage", "Mitigan Right", "Thaddeus Ted", "Marissa Dime", "Barry Calibri"]
+      },
+      "groups": ["Handwerp High Students", "Social Influence Network", "Community Event Planners", "School Spirit Committee"]
+    },
+    {
+      "name": "Yle",
+      "age": 58,
+      "description": "A seasoned mentor figure at 58, Yle brings decades of experience and wisdom to the younger generation. As Anisopteron, they demonstrate that age is no barrier to heroism, using their vast knowledge and tactical expertise to guide and protect their younger counterparts. Their presence provides a valuable perspective on the long-term consequences of heroic actions and the importance of balancing power with responsibility.",
+      "universe_number": "Universe 2",
+      "images": ["yle.png", "anisopteron.png"],
+      "alternate_identities": ["Anisopteron"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "student": ["Regina Rodriguez", "Bismo Nkimina", "Faye Calvary"]
+      },
+      "groups": ["Mentorship Program", "Veteran Heroes Council", "Temporal Guardians", "Strategic Advisory Board"]
+    },
+    {
+      "name": "ZhenZhen Liu",
+      "age": 16,
+      "description": "A reserved but incredibly capable 16-year-old whose quiet demeanor masks a brilliant tactical mind. As Reindare and PowerCreep, she demonstrates an ability to analyze and adapt to any situation with remarkable precision. Her relationship with Gifty has helped her become more open with others, though she still prefers to let her actions speak louder than her words. ZhenZhen's greatest challenge lies in learning to trust others with her vulnerabilities while maintaining the strength that makes her a formidable ally.",
+      "universe_number": "Universe 2",
+      "images": ["zhenzhen.png", "reindare.png", "latezhenzhen.png", "powercreep.png"],
+      "alternate_identities": ["Reindare", "PowerCreep (Pollinated)"],
+      "relationships": {
+        "mom": "Hong Liu",
+        "dad": "Duyi Wong",
+        "girlfriend": "Roxanne 'Gifty' Arhin"
+      },
+      "groups": ["New Era Astonishstone Holders", "Tactical Analysis Team", "Chess Club", "Advanced Mathematics Society"]
+    },
+    {
+      "name": "Avianah Jr. Stroll",
+      "age": 17,
+      "description": "A 17-year-old visionary whose creative spirit and technological prowess combine in her role as Gadget Girl. Coming from a family of inventors, she carries on their legacy while forging her own path in innovation. Her greatest strength lies in her ability to see possibilities where others see limitations, though she sometimes struggles with the pressure of living up to her family name. Despite her technological focus, she maintains a strong emphasis on the human element in all her creations.",
+      "universe_number": "Universe 2",
+      "images": ["avianah.png", "gadgetgirl.png"],
+      "alternate_identities": ["Gadget Girl (Pollinated)"],
+      "relationships": {
+        "mom": "Avianah Fine",
+        "dad": "Rodrick Stroll",
+        "sibling": ["Eva Stroll", "Olly Stroll"]
+      },
+      "groups": ["Innovative Technologies Club", "Inventor's Guild", "STEM Innovators", "Robotics Team"]
+    },
+    {
+      "name": "Christopher Olowe",
+      "age": 16,
+      "description": "A compassionate 16-year-old whose transformation into Astonisher reflects his desire to protect and inspire others. His various forms - from cat to moth - symbolize his adaptability and understanding that strength comes in many forms. Christopher's greatest challenge lies in balancing his desire to help everyone with his own needs for growth and self-care. His friendship with Elise provides him with the support system he needs to navigate these challenges.",
+      "universe_number": "Universe 2",
+      "images": ["christopher.png", "astonisher.png", "astonishercat.png", "astonishermoth.png"],
+      "alternate_identities": ["Astonisher (Pollinated)"],
+      "relationships": {
+        "mom": "Nancy Farheight",
+        "dad": "Dominick Olowe",
+        "close friends": "Elise Nobel"
+      },
+      "groups": ["Compassion Collective", "Animal Welfare Society", "Art and Science Fusion Group"]
+    },
+    {
+      "name": "Elise Nobel",
+      "age": 17,
+      "description": "A 17-year-old polymath whose transformation into GoldenGaze represents her ability to see beyond surface appearances to the heart of any situation. Her combined passion for art and science gives her a unique perspective on problem-solving, allowing her to create solutions that are both practical and beautiful. Despite her many talents, Elise struggles with perfectionism and the fear of not living up to her own high standards.",
+      "universe_number": "Universe 2",
+      "images": ["elise.png", "goldengaze.png"],
+      "alternate_identities": ["GoldenGaze (Pollinated)"],
+      "relationships": {
+        "mom": "Palab Order",
+        "dad": "Mario Nobel",
+        "close friends": ["Isabelle Rich", "Christopher Olowe"]
+      },
+      "groups": ["New Era Astonishstone Holders", "Multidisciplinary Arts Collective", "Scientific Innovation Network"]
+    },
+    {
+      "name": "Myeong Tokko",
+      "age": 17,
+      "description": "A 17-year-old martial artist whose disciplined exterior masks a deeply philosophical nature. Myeong combines traditional values with modern sensibilities, creating a unique approach to heroism that emphasizes personal growth alongside physical strength. Their greatest challenge lies in reconciling their traditional training with the need to adapt to new and unconventional situations.",
+      "universe_number": "Universe 2",
+      "images": ["myeong.png"],
+      "alternate_identities": [],
+      "relationships": {
+        "mom": "Wiki Masala",
+        "dad": "Josh Tokko",
+        "close friends": ["ZhenZhen Liu", "Christopher Olowe"]
+      },
+      "groups": ["Martial Arts Academy", "Philosophy Discussion Group", "Cultural Heritage Preservation Society"]
+    },
+    {
+      "name": "Sprouse Loken",
+      "age": 27,
+      "description": "A 27-year-old mentor figure whose experience bridges the gap between the younger heroes and the adult world. Their approach to heroism is tempered by real-world experience, making them an invaluable advisor to the younger team members. Despite their maturity, they struggle with the responsibility of guiding others while still learning and growing themselves.",
+      "universe_number": "Universe 2",
+      "images": ["sprouse.png"],
+      "alternate_identities": [],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "close friends": ["Isabelle Rich", "Christopher Olowe"]
+      },
+      "groups": []
+    },
+    {
+      "name": "Claire Mitchell",
+      "age": 20,
+      "description": "A 20-year-old reformed antagonist turned mentor whose journey from The Menace to trusted advisor demonstrates the power of redemption. Her past experiences give her unique insight into both the hero and villain perspectives, making her guidance particularly valuable to those struggling with their own path. Claire's greatest strength lies in her ability to understand and guide others through their darkest moments.",
+      "universe_number": "Universe 2",
+      "images": ["claire.png", "menace.png"],
+      "alternate_identities": ["The Menace (Fecundated)"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "George Mitchell",
+        "pseudo mom": "Lylliane Jamerson",
+        "pseudo dad": "Hades Freelance",
+        "close friends": "Jesse Freelance"
+      },
+      "groups": []
+    },
+    {
+      "name": "Time Ranger",
+      "age": 20,
+      "description": "A mysterious 20-year-old whose command over temporal elements makes them a uniquely powerful ally. Their future version suggests a complex destiny that they're still coming to terms with. Despite their significant powers, they struggle with the weight of knowing potential futures and the responsibility of choosing which threads of time to protect or alter.",
+      "universe_number": "Universe 100",
+      "images": ["timeranger.png", "futuretimeranger.png"],
+      "alternate_identities": [],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown"
+      },
+      "groups": []
+    },
+    {
+      "name": "Tiana Heart",
+      "age": 18,
+      "description": "An 18-year-old prodigy whose transformation into Blackhole reflects both her tremendous power and the responsibility that comes with it. As a natural leader, she combines strategic thinking with empathy, making her particularly effective at handling complex situations. Her greatest challenge lies in managing the immense power at her disposal while maintaining her humanity and connections to others.",
+      "universe_number": "Universe 5",
+      "images": ["tiana.png", "blackhole.png"],
+      "alternate_identities": ["Blackhole"],
+      "relationships": {
+        "mom": "Hapinton Calvary",
+        "dad": "Benson Night",
+        "close friends": []
+      },
+      "groups": []
+    },
+    {
+      "name": "Alexandra Flores",
+      "age": 24,
+      "description": "A 24-year-old vigilante who protects her city at night, representing a grittier, more urban take on heroism. Her partnership with Quinn Fortune explores themes of trust and redemption in a darker context.",
+      "universe_number": "Universe 89",
+      "images": ["alexandra.png", "mariposa89.png", "newmariposa89.png"],
+      "alternate_identities": ["Mariposa"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "close friends": "Quinn Fortune"
+      },
+      "groups": ["Universe 89 vigilantes"]
+    },
+    {
+      "name": "Quinn Fortune",
+      "age": 25,
+      "description": "A 25-year-old reformed criminal whose character arc emphasizes redemption and the complexity of morality. Their partnership with Mariposa shows how past mistakes can lead to positive change.",
+      "universe_number": "Universe 89",
+      "images": ["quinn.png", "feline.png"],
+      "alternate_identities": ["Feline"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "sibling": "Yvonne Fortune",
+        "close friends": "Alexandra Flores"
+      },
+      "groups": ["Universe 89 vigilantes"]
+    },
+    {
+      "name": "Farah White",
+      "age": 22,
+      "description": "Since a young age, Farah has been a master archer. She's determined to keep her city safe as 'the Trickshot'.",
+      "universe_number": "Universe 89",
+      "images": ["farah.png", "trickshot.png", "newtrickshot.png"],
+      "alternate_identities": ["Trickshot"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown"
+      },
+      "groups": ["Universe 89 vigilantes"]
+    },
+    {
+      "name": "Parable Young",
+      "age": 27,
+      "description": "Parable Young is a powerful kingpin. A crimeboss with an impossible past. The city fears her, as 'Tycoon'.",
+      "universe_number": "Universe 89",
+      "images": ["parable.png", "tycoon.png"],
+      "alternate_identities": ["Tycoon"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown"
+      },
+      "groups": []
+    },
+    {
+      "name": "Cicy Charming",
+      "age": 15,
+      "description": "A young member of the Counterspy Society and descendant of a great surveillance organization, determined to protect the city of New Brihanna.",
+      "universe_number": "Universe 4",
+      "images": ["cicy.png", "agentcicy.png", "spycicy.png"],
+      "alternate_identities": ["Agent 40"],
+      "relationships": {
+        "mom": "Valentina Flores",
+        "dad": "Anthony Pereira",
+        "sibling": "Ethan Charming",
+        "boss": "Arian High"
+      },
+      "groups": ["Counterspy Society"]
+    },
+    {
+      "name": "Ethan Charming",
+      "age": 15,
+      "description": "A young member of the Counterspy Society and descendant of a great surveillance organization, determined to protect the city of New Brihanna.",
+      "universe_number": "Universe 4",
+      "images": ["ethan.png", "agentethan.png", "spyethan.png"],
+      "alternate_identities": ["Agent 195"],
+      "relationships": {
+        "mom": "Valentina Flores",
+        "dad": "Anthony Pereira",
+        "sibling": "Cicy Charming",
+        "boss": "Arian High"
+      },
+      "groups": ["Counterspy Society"]
+    },
+    {
+      "name": "Beth Church",
+      "age": 15,
+      "description": "A young member of the Counterspy Society and descendant of a great surveillance organization, determined to protect the city of New Brihanna.",
+      "universe_number": "Universe 4",
+      "images": ["beth.png", "agentbeth.png", "spybeth.png"],
+      "alternate_identities": ["Agent 3"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "boss": "Arian High"
+      },
+      "groups": ["Counterspy Society"]
+    },
+    {
+      "name": "Hailey Spade",
+      "age": 16,
+      "description": "A young member of the Counterspy Society and descendant of a great surveillance organization, determined to protect the city of New Brihanna.",
+      "universe_number": "Universe 4",
+      "images": ["hailey.png", "agenthailey.png", "spyhailey.png"],
+      "alternate_identities": ["Agent 28"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "boss": "Arian High"
+      },
+      "groups": ["Counterspy Society"]
+    },
+    {
+      "name": "Alecia Whitney Knight",
+      "age": 50,
+      "description": "An ancient sorcerer and master of the mystical arts",
+      "universe_number": "Universe 429",
+      "images": ["alecia.png", "drpower.png"],
+      "alternate_identities": ["Doctor Power"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Nick Crowley",
+      "age": 30,
+      "description": "A veteran student at Castle Friday and practicer of the mystical arts.",
+      "universe_number": "Universe 429",
+      "images": ["nick.png"],
+      "alternate_identities": ["Flightweight"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Lead Magic",
+      "age": 20,
+      "description": "A young student at Castle Friday and practicer of the Magical arts.",
+      "universe_number": "Universe 429",
+      "images": ["lead.png", "witch.png"],
+      "alternate_identities": ["Witch"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "brother": "Mason Magic",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Rose The Fifth",
+      "age": 22,
+      "description": "A member of the magical royal guard.",
+      "universe_number": "Universe 429",
+      "images": ["rose.png"],
+      "alternate_identities": [],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Mason Magic",
+      "age": 27,
+      "description": "A prodogy in the mystical arts and student at Castle Friday",
+      "universe_number": "Universe 429",
+      "images": ["mason.png", "magicaster.png", "supermagicaster.png"],
+      "alternate_identities": ["Magicaster"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Honor Dipolitto",
+      "age": 19,
+      "description": "Honor was once a mighy sorcerer until a mysterious spell de-aged her to a fetus. After finding out she used to practice magic, she enrolls in Castle Friday.",
+      "universe_number": "Universe 429",
+      "images": ["honor.png", "sighteye.png"],
+      "alternate_identities": ["Sighteye"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Phil Finickkey",
+      "age": 20,
+      "description": "Originates from the underworld and recently enrolled in Castle Friday.",
+      "universe_number": "Universe 429",
+      "images": ["nick.png", "daredemon.png"],
+      "alternate_identities": ["DareDemon"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Bjork Fraquentie",
+      "age": 20,
+      "description": "She lived among the humans as a stage magician, until she learned of her true origins. Now, she works on her potential at Castle Friday.",
+      "universe_number": "Universe 429",
+      "images": ["bjork.png", "enchantress.png"],
+      "alternate_identities": ["Enchantress"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Castle Friday students"]
+    },
+    {
+      "name": "Pathik Surwey",
+      "age": 50,
+      "description": "20 years ago, Pathik was in an accident. The multiversal portal he was working on malfunctioned and sent him on his way. Since then, he has stopped againg. After his long trips, he was recognized as an anomaly by a powerful group. He would've been a goner, but they saw his potential and let him join.",
+      "universe_number": "Unknown",
+      "images": ["pathik.png", "traverser.png"],
+      "alternate_identities": ["Traverser"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown",
+        "mentor": "Jalil Friday"
+      },
+      "groups": ["Multiverse Travel Patrol"]
+    },
+    {
+      "name": "Stella Night",
+      "age": 23,
+      "description": "She didn't have any friends nor family, and it was all thanks to herself. Stella gained her superpowers in a lab accident, one day, but she wasn't the only one. Now, she makes sure these victims don't abuse their powers.",
+      "universe_number": "Universe 1",
+      "images": ["stella.png", "stargazer.png"],
+      "alternate_identities": ["Stargazer"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown"
+      },
+      "groups": []
+    },
+    {
+      "name": "???",
+      "age": 30,
+      "description": "A mysterious superhero who, one day, emerged from the skies. He doesn't even know his name, so we gave him one; Exxtraman.",
+      "universe_number": "Universe 1",
+      "images": ["civilianexxtraman.png", "exxtraman.png", "futureexxtraman.png"],
+      "alternate_identities": ["Exxtraman"],
+      "relationships": {
+        "mom": "Unknown",
+        "dad": "Unknown"
+      },
+      "groups": []
+    }
+   
+  ]
+}
