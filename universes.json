@@ -1,0 +1,185 @@
+{
+    "universes": [
+      {
+        "name": "Infinity Universe",
+        "designation_number": 8,
+        "description": "A timeless and enigmatic world, revered by multiversal travelers as a central hub of existence. It serves as a crossroads for dimensional travelers, with the Time Keepers guarding its secrets. Known for its mysteries, this universe contains Earth, Hub World, and Nexus Point as key locations.",
+        "species": ["Humans", "Dimensional Travelers", "Time Keepers"],
+        "images": "universe8.png",
+        "known_planets": ["Earth", "Hub World", "Nexus Point"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Unreachable Universe",
+        "designation_number": 0,
+        "description": "A distant universe, almost unreachable, where humans coexist with enigmatic, unknown entities. Its most notable locations include Earth and the Void, a seemingly endless space that remains mostly unexplored.",
+        "species": ["Humans", "Unknown Entities"],
+        "images": "universe0.png",
+        "known_planets": ["Earth", "The Void"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "First Universe",
+        "designation_number": 1,
+        "description": "Often referred to as 'The Super Universe', this highly advanced world is heavily controlled by sophisticated technology. Its inhabitants: enhanced humans, AI beings, and synthetic life forms live in a state of perfect harmony. Key locations include Earth Prime, New Mars, and Cybertron.",
+        "species": ["Enhanced Humans", "AI Beings", "Synthetic Life"],
+        "images": "universe1.png",
+        "known_planets": ["Earth Prime", "New Mars", "Cybertron"],
+        "residents": ["Stella Night", "Exxtraman"]
+      },
+      {
+        "name": "Casual Universe",
+        "designation_number": 2,
+        "description": "A universe of hope, where ordinary humans live alongside superheroes and metahumans. When the Earth faces peril, heroic figures rise to combat dark forces.",
+        "species": ["Humans", "Superhumans", "Metahumans"],
+        "images": "universe2.png",
+        "known_planets": ["Earth", "Rockantada"],
+        "residents": ["Regina Rodriguez", "Bismo Nkimina","Isabelle Rich", "Faye Calvary", "Isra Sumeyye", "Roxanne 'Gifty' Arhin", "Jesse Freelance", "Stacy Leonold", "Yle", 
+      "ZhenZhen Liu", "Avianah Jr. Stroll", "Christopher Olowe", "Elise Nobel", "Myeong Tokko", "Sprouse Loken", "Claire Mitchell" ]
+      },
+      {
+        "name": "Inverted Universe",
+        "designation_number": 4,
+        "description": "A reality where the Americas have been divided into 'Americ' and 'Big Brazil,' with a small island, Little America, nestled between them. This alternative Earth is home to humans and their counterparts. Known planets are Inverted Earth and Mirror Mars.",
+        "species": ["Humans", "Alternative Humans"],
+        "images": "universe4.png",
+        "known_planets": ["Inverted Earth", "Mirror Mars"],
+        "residents": ["Cicy Charming", "Ethan Charming", "Betch Church", "Hailey Spade"]
+      },
+      {
+        "name": "Maleficent Universe",
+        "designation_number": 5,
+        "description": "In this universe, the inhabitants of Earth are born without the ability to develop consciousness, creating a bizarre and chaotic environment. It's a land populated by unconscious humans and primal beings, with Earth and Chaos Moon as major locations.",
+        "species": ["Unconscious Humans", "Primal Beings"],
+        "images": "universe5.png",
+        "known_planets": ["Earth", "Chaos Moon"],
+        "residents": ["Tiana Heart"]
+      },
+      {
+        "name": "Crafted Universe",
+        "designation_number": 10,
+        "description": "Similar to a 'usual' Earth, except.. The physics can get confusing. Not to mention, Earth's got a new neighbor here.",
+        "species": ["Humans", "Reality Benders"],
+        "images": "universe10.png",
+        "known_planets": ["Earth", "Mystery Planet", "Quantum World"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Desaturated Universe",
+        "designation_number": 12,
+        "description": "A universe with many similarities to a typical Earth, but the laws of physics are unpredictable, leading to strange occurrences. Earth has a mysterious neighbor, a planet known as the Mystery Planet, and a strange realm called the Quantum World.",
+        "species": ["Monochrome Humans", "Shade Beings"],
+        "images": "universe12.png",
+        "known_planets": ["Grey Earth", "Shadow World"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Medieval Earth Universe",
+        "designation_number": 18,
+        "description": "A universe where medieval civilizations never advanced into modernity, with a world full of knights, dragons, and mythical creatures. The known planets include Medieval Earth and the Dragon's Realm.",
+        "species": ["Medieval Humans", "Dragons", "Mythical Creatures"],
+        "images": "universe18.png",
+        "known_planets": ["Medieval Earth", "Dragon's Realm"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Unstable Universe",
+        "designation_number": 30,
+        "description": "Also called 'Glitch Earth,' this universe experiences constant changes in the laws of nature, making the world a chaotic and unpredictable place. Adaptable humans and glitch entities navigate a reality where stability is a fleeting concept. The known planets are Glitch Earth and the Unstable Moons.",
+        "species": ["Adaptable Humans", "Glitch Entities"],
+        "images": "universe30.png",
+        "known_planets": ["Glitch Earth", "Unstable Moons"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Peace Universe",
+        "designation_number": 58,
+        "description": "Known as 'Peace Earth' or 'Lone Earth,' this harmonious world is a rare utopia where all species coexist in tranquility. However, this peaceful existence comes at the cost of being a lone planet in the vast multiverse. The single planet in this universe is Lone Earth.",
+        "species": ["Unified Humans", "Peaceful Beings"],
+        "images": "universe58.png",
+        "known_planets": ["Lone Earth"],
+        "residents": []
+      },
+      {
+        "name": "Orange Skies Universe",
+        "designation_number": 89,
+        "description": "A surreal universe where the skies are perpetually orange, casting an otherworldly glow on the inhabitants of Earth and the Amber Moon, a mysterious celestial body.",
+        "species": ["Humans", "Sky Dwellers"],
+        "images": "universe89.png",
+        "known_planets": ["Orange Earth", "Amber Moon"],
+        "residents": ["Alexandra Flores", "Quinn Fortune", "Farah White", "Parable Young"]
+      },
+      {
+        "name": "Red Realm",
+        "designation_number": 100,
+        "description": "This is a universe where every element is bathed in a constant red hue. The species here, including red-adapted humans and crimson beings, thrive in this unique environment. Known planets include Red Earth and Scarlet Mars.",
+        "species": ["Red-adapted Humans", "Crimson Beings"],
+        "images": "universe100.png",
+        "known_planets": ["Red Earth", "Scarlet Mars"],
+        "residents": ["Time Ranger"]
+      },
+      {
+        "name": "Cartoon Universe",
+        "designation_number": 111,
+        "description": "A zany universe where everything is saturated in vibrant color, and the laws of nature follow absurd, cartoonish logic. It’s home to cartoon humans and animated beings, with Toon Earth and Comedy World as the primary locations.",
+        "species": ["Cartoon Humans", "Animated Beings"],
+        "images": "universe111.png",
+        "known_planets": ["Toon Earth", "Comedy World"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Stone Earth",
+        "designation_number": 269,
+        "description": "A universe where powerful magicians once turned the entire Earth to stone, leaving behind a world of petrified landscapes. Inhabitants, including stone humans and rock elementals, live in this static environment. The known planets are Stone Earth and Crystal Moon.",
+        "species": ["Stone Humans", "Rock Elementals"],
+        "images": "universe269.png",
+        "known_planets": ["Stone Earth", "Crystal Moon"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "The Manaverse",
+        "designation_number": 429,
+        "description": "A universe where the weather in space directly affects the planet's environment. Humans adapted to survive the constant storm cycles, along with storm beings, populate Earth and the Storm Planet.",
+        "species": ["Weather-adapted Humans", "Storm Beings", "Magicians"],
+        "images": "universe429.png",
+        "known_planets": ["Weather Earth", "Storm Planet"],
+        "residents": ["Alecia Whitney Knight", "Nick Crowley", "Lead Magic", "Rose The Fifth", "Mason Magic", "Honor Dipolitto", "Phil Finickkey", "Bjork Fraquentie"]
+      },
+      {
+        "name": "Future Universe",
+        "designation_number": 578,
+        "description": "A futuristic Earth, inhabited by evolved species and humans who have adapted to advanced technology and changed environments. The planets in this future world include Future Earth, Colony Mars, and New Venus.",
+        "species": ["Future Humans", "Evolved Species"],
+        "images": "universe578.png",
+        "known_planets": ["Future Earth", "Colony Mars", "New Venus"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Young Universe",
+        "designation_number": 771,
+        "description": "Known as Red n Blue Earth, this universe exudes a vibrant youthful energy. The inhabitants, including young humans and energy beings, thrive in this dynamic environment, with Young Earth and Energy World as its main planets.",
+        "species": ["Young Humans", "Energy Beings"],
+        "images": "universe771.png",
+        "known_planets": ["Young Earth", "Energy World"],
+        "residents": ["Pathik Surwey"]
+      },
+      {
+        "name": "Spinoff Universe",
+        "designation_number": 999,
+        "description": "In this universe, Earth exists but is not the focal point of existence. The species here, including alternative humans and star dwellers, explore minor versions of Earth and Mars. Key locations are Minor Earth and Major Mars.",
+        "species": ["Alternative Humans", "Star Dwellers"],
+        "images": "universe999.png",
+        "known_planets": ["Minor Earth", "Major Mars"],
+        "residents": []
+      },
+      {
+        "name": "Old Universe",
+        "designation_number": 1001,
+        "description": " long-forgotten universe, where Earth is now a dead world, with only the remnants of vibrant hues remaining. Ancient humans and eternal beings roam this world, with Ancient Earth and Remnant Worlds as its primary locations.",
+        "species": ["Ancient Humans", "Eternal Beings"],
+        "images": "universe1001.png",
+        "known_planets": ["Ancient Earth", "Remnant Worlds"],
+        "residents": ["Pathik Surwey"]
+      }
+    ]
+  }
