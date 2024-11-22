@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ universe.name }} - Universe Details</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            background-color: black; 
+            margin-top: 10px; 
+            padding: 0; 
+            color: #333; 
+            line-height: 0.5;
+        }
+        .multiverse-page { 
+            width: 90%; 
+            max-width: 1200px;
+            margin: 0 auto; 
+            background: white; 
+            padding: 20px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        }
+        .multiverse-header { 
+            text-align: center; 
+            background-color: #f95891; 
+            color: white; 
+            padding: 5px 0; 
+            border-radius: 1px; 
+            margin-bottom: 10px; 
+        }
+        .universe-image img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            border: 10px solid #f95891; 
+        }
+        .profile-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        }
+        .profile-table th, 
+        .profile-table td { 
+            text-align: left; 
+            padding: 8px; 
+            border-bottom: 1px solid #ddd; 
+            line-height: 1.1; 
+        }
+        .profile-table th { 
+            background-color: #f95891; 
+            color: white; 
+            width: 25%; 
+        }
+        .resident-link {
+            text-decoration: none;
+            color: #f95891;
+        }
+        .resident-link:hover {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 600px) {
+            .multiverse-page {
+                width: 95%;
+                padding: 10px;
+            }
+            .profile-table th {
+                width: 100%;
+                display: block;
+                background-color: #f95891;
+                color: white;
+            }
+            .profile-table tr {
+                display: block;
+                margin-bottom: 10px;
+            }
+            .profile-table td {
+                display: block;
+                width: 100%;
+                border: none;
+                padding: 5px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="multiverse-page">
+        <header class="multiverse-header">
+            <h1>{{ universe.name }}</h1>
+        </header>
+
+        <div class="universe-image">
+            <img src="{{ url_for('static', filename='images/' + universe.images) }}" alt="{{ universe.name }}">
+        </div>
+
+        <table class="profile-table">
+            <tr>
+                <th>Description</th>
+                <td>{{ universe.description or 'No description available.' }}</td>
+            </tr>
+            <tr>
+                <th>Species</th>
+                <td>
+                    {% if universe.species %}
+                        {% for species in universe.species %}
+                            {{ species }}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        No species listed
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>Known Planets</th>
+                <td>
+                    {% if universe.known_planets %}
+                        {% for planet in universe.known_planets %}
+                            {{ planet }}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        No known planets
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>Residents</th>
+                <td>
+                    {% if universe.residents %}
+                        {% for character in universe.residents %}
+                            <a href="{{ url_for('universe_details', universe_number=universe.designation_number) }}" class="resident-link">
+                        {{ character }} </a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% else %}
+                    No residents listed for this universe
+                {% endif %}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

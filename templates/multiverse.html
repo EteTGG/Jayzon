@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverse Overview</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            background-color: black; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            line-height: 1.6;
+        }
+        .multiverse-page { 
+            width: 90%; 
+            max-width: 1200px;
+            margin: 0 auto; 
+            background: white; 
+            padding: 20px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        }
+        .multiverse-header { 
+            text-align: center; 
+            background-color: #f95891; 
+            color: white; 
+            padding: 15px 0; 
+            border-radius: 5px; 
+            margin-bottom: 20px; 
+        }
+        .universe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .universe-card {
+            background: #f9f9f9; 
+            padding: 15px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            text-align: center;
+        }
+        .universe-card img {
+            max-width: 200px;
+            height: auto;
+            border: 5px solid #f95891;
+            margin-bottom: 10px;
+        }
+        .view-details-button {
+            display: inline-block;
+            background-color: #f95891; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .view-details-button:hover {
+            background-color: #fa3479;
+        }
+        @media screen and (max-width: 600px) {
+            .universe-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="multiverse-page">
+        <header class="multiverse-header">
+            <h1>Multiverse Overview</h1>
+        </header>
+
+        <div class="universe-grid">
+            {% for universe in multiverse %}
+            <div class="universe-card">
+                <h2>{{ universe.name }}</h2>
+                <p><strong>Designation Number:</strong> {{ universe.designation_number }}</p>
+                <p><strong>Description:</strong> {{ universe.description }}</p>
+                
+                {% if universe.images %}
+                    {% if universe.images is string %}
+                        <img src="{{ url_for('static', filename='images/' + universe.images) }}" alt="{{ universe.name }}">
+                    {% elif universe.images is iterable %}
+                        {% for image in universe.images %}
+                            <img src="{{ url_for('static', filename='images/' + image) }}" alt="{{ universe.name }}">
+                        {% endfor %}
+                    {% endif %}
+                {% else %}
+                    <p>No images available for this universe.</p>
+                {% endif %}
+
+                <a href="{{ url_for('universe_details', universe_number=universe.designation_number) }}" class="view-details-button">View Details</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

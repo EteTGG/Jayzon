@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ character.name }}</title>
+    <style>
+body { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; background-color: black; margin-top: 10px; margin-left: 18%; padding: 0; color: #333; width: 63%; }
+.character-page { width: 85%; margin: auto; background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+.character-header { text-align: center; background-color: #f95891; color: white; padding: 15px 0; border-radius: 5px 5px 0 0; margin-bottom: 20px; }
+.character-profile { display: flex; gap: 20px; }
+.profile-sidebar { width: 30%; background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+.profile-sidebar img { width: 100%; border-radius: 5px; margin-bottom: 15px; }
+.profile-table { width: 100%; border-collapse: collapse; }
+.profile-table th, .profile-table td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+.profile-table th { background-color: #f95891; color: white; }
+.profile-details { width: 70%; }
+.profile-details h2 { border-bottom: 2px solid #f95891; padding-bottom: 5px; margin-bottom: 15px; color: #f95891; }
+.image-gallery { display: flex; flex-wrap: wrap; gap: 10px; }
+.test img { width: 50px; }
+.image-gallery img { width: 150px; height: auto; border: 1px solid #ccc; border-radius: 5px; }
+.image-gallery figcaption { text-align: center; font-size: 0.9em; margin-top: 5px; color: #666; }
+.origin-link { text-decoration: none; color: #f95891; }
+.origin-link:hover { text-decoration: underline; }
+
+    </style>
+</head>
+<body>
+    <div class="character-page">
+        <header class="character-header">
+            <h1>{{ character.name }}</h1>
+        </header>
+        <main>
+            <div class="character-profile">
+                <aside class="profile-sidebar">
+                    {% if character.images %}
+                        <img style="width: 50%" src="{{ url_for('static', filename='images/' + character.images[0]) }}" alt="{{ character.name }}">
+                    {% else %}
+                        <p>No image available</p>
+                    {% endif %}
+                    <table class="profile-table">
+                        <tr>
+                            <th>Age</th>
+                            <td>{{ character.age or 'Unknown' }}</td>
+                        </tr>
+                        <tr>
+                            <th>Home Universe</th>
+                            <td>
+                                {% if character.universe_number %}
+                                
+                                <a href="{{ url_for('character', name=character.name) }}" class="origin-link">{{ character.universe_number }}</a>   
+                                {% else %}
+                                Unknown
+                                {% endif %}
+                            </td>
+                        </tr>                        
+                        <tr>
+                            <th>Alternate Identities</th>
+                            <td>
+                                {% if character.alternate_identities %}
+                                    {{ character.alternate_identities | join(", ") }}
+                                {% else %}
+                                    None
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Relationships</th>
+                            <td>
+                                {% if character.relationships %}
+                                    {% for relation, value in character.relationships.items() %}
+                                        {{ relation | capitalize }}: 
+                                        {% if value is iterable and not value is string %}
+                                            {{ value | join(", ") }}
+                                        {% else %}
+                                            {{ value }}
+                                        {% endif %}
+                                        {% if not loop.last %}<br>{% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    None
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Groups</th>
+                            <td>
+                                {% if character.groups %}
+                                    {{ character.groups | join(", ") }}
+                                {% else %}
+                                    None
+                                {% endif %}
+                            </td>
+                        </tr>
+                    </table>
+                </aside>
+                <section class="profile-details">
+                    <h2>Description</h2>
+                    <p>{{ character.description or 'No description available.' }}</p>
+
+                    <h2>Gallery</h2>
+                    <div class="image-gallery">
+                        {% if character.images %}
+                            {% for image in character.images %}
+                            <figure>
+                                <img style="border-style:solid; border-color:#f95891; border-width:5px;" src="{{ url_for('static', filename='images/' + image) }}" alt="{{ character.name }}">
+                                <figcaption>{{ image.split('.')[0] }}</figcaption>
+                            </figure>
+                            {% endfor %}
+                        {% else %}
+                            <p>No images available.</p>
+                        {% endif %}
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
